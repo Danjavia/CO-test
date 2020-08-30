@@ -9,11 +9,11 @@ Clone this repository ``git clone https://github.com/Danjavia/CO-test.git``
 
 ## Install packages using NPM
 
-``cd Co-test && npm install``
+try ``npm install`` command to install packages
 
 ## Install packages using YARN
 
-``cd Co-test && yarn install``
+try ``yarn install`` command to install packages
 
 ## Run command after 30 days
 
