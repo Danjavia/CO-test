@@ -12,7 +12,6 @@ class CarInsurance {
                 }
             } else {
                 if (this.products[i].price < 50) {
-                    console.log('paso aqui');
                     this.products[i].price = this.products[i].price + 1;
                     if (this.products[i].name === 'Special Full Coverage') {
                         if (this.products[i].sellIn < 11) {
