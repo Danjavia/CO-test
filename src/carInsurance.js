@@ -32,6 +32,7 @@ class CarInsurance {
                 this.products[i].sellIn = this.products[i].sellIn - 1;
             }
 
+            // Check if sellIn is lower than 0
             if (this.products[i].sellIn < 0) {
                 if (this.products[i].name !== 'Full Coverage') {
                     if (this.products[i].name !== 'Special Full Coverage') {
@@ -44,6 +45,7 @@ class CarInsurance {
                         this.products[i].price = this.products[i].price - this.products[i].price;
                     }
                 } else {
+                    // the price never should be nore than 50
                     if (this.products[i].price < 50) {
                         this.products[i].price = this.products[i].price + 1;
                     }

@@ -11,6 +11,7 @@ const productsAtDayZero = [
     new Product('Special Full Coverage', 10, 49),
     new Product('Special Full Coverage', 5, 49),
     new Product('Super Sale', 3, 6),
+    new Product('New Product', 10, 6),
 ];
 
 const carInsurance = new CarInsurance(productsAtDayZero);
