@@ -84,4 +84,10 @@ describe("Co Test", function() {
         expect(products[0].price).equal(60);
     });
 
+    it("should Super Sale product and price > 0", function() {
+        const coTest = new CarInsurance([ new Product("Super Sale", 3, 6) ]);
+        const products = coTest.updatePrice();
+        expect(products[0].price).equal(4);
+    });
+
 });
