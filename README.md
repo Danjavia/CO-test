@@ -1,5 +1,5 @@
 # CO-test
-[![Build Status](https://travis-ci.org/danjavia/CO-test.png?branch=master)](https://travis-ci.org/danjavia/CO-test)
+[![Build Status](https://travis-ci.org/Danjavia/CO-test.png?branch=master)](https://travis-ci.org/Danjavia/CO-test)
 
 Programming test for ComparaOnline
 
@@ -15,10 +15,10 @@ Clone this repository ``git clone https://github.com/Danjavia/CO-test.git``
 
 ``cd Co-test && yarn install``
 
-## Run command after-30 days
+## Run command after 30 days
 
-``npm run after-30-days``
+Run ``npm run after-30-days`` command to print results on console
 
 ## Run Tests
 
-``npm run test``
+Run tests using the ``npm run test`` command

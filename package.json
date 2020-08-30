@@ -4,6 +4,10 @@
   "description": "Test for ComparaOnline",
   "main": "src/index.js",
   "author": "(Danjavia) Danny Viasus Avila",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Danjavia/CO-test.git"
+  },
   "license": "MIT",
   "scripts": {
     "test": "nyc --reporter=text mocha -r esm spec/*.js",
